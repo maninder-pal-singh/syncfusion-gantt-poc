@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "syncfusion-gantt-poc"
+    }
+  },
+  "defaultProject": "syncfusion-gantt-poc",
+  "cli": {
+    "analytics": false
+  }
 }

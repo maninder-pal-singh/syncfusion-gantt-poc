@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { GanttModule } from '@syncfusion/ej2-angular-gantt';
+import { EditService , FilterService, SortService, SelectionService, ToolbarService,DayMarkersService, ContextMenuService } from '@syncfusion/ej2-angular-gantt';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import { GanttModule } from '@syncfusion/ej2-angular-gantt';
     AppRoutingModule,
     GanttModule
   ],
-  providers: [],
+  providers: [EditService , FilterService, SortService, SelectionService,ToolbarService,DayMarkersService, ContextMenuService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
